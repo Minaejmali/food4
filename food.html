@@ -1,0 +1,228 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>gourmet</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+        <meta name="viewport" content="width=device-width, initia-scale=1.0">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: 'Playfair Display';
+                font-size: 14px;
+            }
+           
+            h4, h5, .head{
+                 letter-spacing: 5px;
+            }
+            .pad{
+                padding: 8px 5px;
+            }
+            .nav-bar{
+                top: 0;
+                position: fixed;
+                z-index: 1;
+                width: 100%;
+                box-sizing: inherit;
+                overflow: hidden;
+                opacity: 0.75;
+                display: block;
+                text-align: center;
+            }
+            .a{
+                width: 13.33;
+                float: right;
+            }
+            .b{
+                width: 16.66;
+                float: left
+            }
+            .font-17{
+                font-size: 17px
+            }
+            .bg-white{
+                background-color: white;
+                color: black;
+            }
+            a{
+                text-decoration: none;
+                padding: 10px;
+                color: black;
+            }
+            a:hover{
+                background-color: #ccc8c8
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+            .vasat{
+                align-items: center;
+            }
+            .vasat, .vasat2{
+                width: 100%;
+                display: flex;
+                margin: 0 auto;
+                flex-wrap: wrap;
+                line-height: 20px
+            }
+            .ra{
+                width: 100%;
+                line-height: 30px;
+            }
+            h4{
+                font-size: 40px;
+                padding: 30px 0;
+            }
+            .ra h5{
+                font-size: 15px;
+                padding: 10px 0;
+            }
+            .ra p{
+                font-size: 15px;
+                text-align: left;
+            }
+            hr{
+                border: none;
+                height: 0.5px;
+                background-color: #e8e6e6;
+                width: 80%; 
+                margin: 0 auto
+            }
+            .chap{
+                width: 100%;
+            }
+            .chap h5{
+                font-size: 20px;
+                padding: 40px 0 0px 0;
+            }
+            .chap p{
+                color: #8c8b8b;
+                padding: 25px 0;
+            }
+            .footer{
+                padding: 100px 130px 150px 130px;
+            }
+            .footer h5{
+                padding: 0 0 40px;
+                font-size: 30px
+            }
+            .footer p{
+                font-size: 14px;
+                padding: 20px 0;
+            }
+            .footer h6{
+                color: #638696;
+                font-size: 18px;
+            }
+             form{
+                padding: 0 30px;
+                height: 300px;
+            }
+            input{
+                height: 50px;
+                width: 100%; 
+                margin-bottom: 15px;
+                border: 0;
+                border-bottom: 1px solid #e8e6e6;
+                outline: 0;
+                margin-top: 10px
+            }
+            input:hover{
+                border: 1px solid black;
+                border-radius: 10px
+            }
+            .footer2{
+                height: 50%;
+                background-color: #e8e6e6;
+                text-align: center;
+                padding: 50px 0;
+            }
+             
+            @media only screen and (min-width: 600px){
+                .ra, .chap{
+                    width: 50%;
+                } 
+                .a{
+                width: 8.33%;
+                float: right;
+                color: black;
+            }
+                .b{
+                width: 16.66%;
+                float: left;
+            }
+            }
+            @media only screen and (max-width: 600px){
+                .center{
+                    text-align: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <div class="nav-bar bg-white font-17">
+        <div style="padding: 8px 5px 45px">
+           <p><a href="#" class="b pad">Gourmet au catering</a></p>
+            <a href="#a" class="a pad">About</a>
+            <a href="#b" class="a pad">Menu</a>
+            <a href="#c" class="a pad">Contact</a>
+        </div>
+        </div>
+        <img src="hamburger.jpg">
+        <div class="vasat" id="a">
+            <div class="ra" style="padding: 90px">
+                <img src="tablesetting2.jpg" style=" opacity: 0.5; ">
+            </div>
+             <div class="ra" style="padding: 0 40px 0 20px; text-align: center">
+                <h4>About Catering</h4>
+                <h5>Tradition since 1889</h5>
+                 <div style="width: 90%" class="center">
+                    <p style="font-size: 17px; font-weight: lighter;padding: 15px 0;" class="center">
+                        The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span style="background-color: #dbdbdb">seasonal</span> ingredients.
+                 </p>
+                <p style="color: #8c8b8b; padding: 10px 0;font-size: 16px" class="center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            </div>
+            <hr>
+        </div>
+        <div class="vasat2" id="b">
+           <div class="chap" style="text-align: left; padding: 100px 0 80px 120px">
+               <h5 style="text-align: center; font-size: 30px; padding: 10px 0 40px 0">Our Menu</h5>
+               <h5>Bread Basket</h5>
+               <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+               <h5>Honey Almond Granola with Fruits</h5>
+               <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+               <h5>Belgian Waffle</h5>
+               <p>Vanilla flavored batter with malted flour 7.50</p>
+               <h5>Scrambled eggs</h5>
+               <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+               <h5>Blueberry Pancakes</h5>
+               <p>With syrup, butter and lots of berries 8.50</p>
+            </div>
+           <div class="chap" style="padding: 90px">
+               <img src="tablesetting.jpg" style=" opacity: 0.5; "> 
+            </div>
+        </div>
+        <hr>
+        <div class="footer" id="c">
+            <h5>Contact</h5>
+            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.Do not hesitate to contact us.</p>
+            <h6>Catering Service, 42nd Living St, 43043 New York, NY</h6>
+            <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+            <form>
+                <input type="text" placeholder="Name"><br>
+                <input type="number" placeholder="How many people"><br>
+                <input type=date value="11/02/2020"><br>
+                <input type="text" placeholder="Message/Special requirements"><br>
+                <input type="submit" value="SEND MESSAGE" style="width: 150px;height: 40px">
+            </form>
+        </div>
+        <div class="footer2">
+            <p>Powered by Minnak</p>
+        </div>
+    </body>
+</html>
